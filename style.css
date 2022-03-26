@@ -1,0 +1,32 @@
+html,body{
+    background-color:#a4b0be ;
+    height: 100%;
+    margin: 10px;
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.container>div:nth-child(1n){
+    background-color:#ff7675 ;
+}
+.container>div:nth-child(2n){
+    background-color: #55efc4;
+}
+.container>div:nth-child(3n){
+    background-color:#58B19F ;
+}
+.container>div:nth-child(4n){
+    background-color:#FEA47F ;
+}
+.container>div:nth-child(5n){
+    background-color:#8854d0;
+}
+.container>div:nth-child(6n){
+    background-color:#fdcb6e ;
+}
+.container>div:nth-child(7n){
+    background-color: aqua;
+}
